@@ -2,7 +2,7 @@
 
 # 高德地图 猎鹰组件 Flutter插件
 
-[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_map_fluttify/%E5%9C%B0%E5%9B%BE-2020-08-29.apk)
+[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-2020-09-14.apk)
 
 # Fluttify系列插件
 |  名称  | 描述 | 仓库 |
