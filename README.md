@@ -80,7 +80,7 @@ android {
 5. 无需再处理混淆, 已在插件中配置混淆规则;
 
 ### iOS
-1. 与Android端不同, iOS端的初始化需要在`AmapTrack.instance.init`方法中传入, 具体参考wiki;
+1. 与Android端不同, iOS端的初始化需要在`AmapTrack.instance.init`方法中传入, 具体参考[wiki](https://github.com/fluttify-project/amap_track_fluttify/wiki);
 2. 定位需要声明权限, 在Info.plist中添加:
 ```xml
 <key>NSLocationWhenInUseUsageDescription</key>
@@ -90,6 +90,9 @@ android {
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 <string>需要定位权限</string>
 ```
+3. 配置后台定位:
+    1. 左侧目录中选中工程名，开启 TARGETS->Capabilities->Background Modes;
+    2. 在 Background Modes中勾选 Location updates，如下图所示: ![location](https://a.amap.com/lbs/static/img/backgroundlocation.png)
 
 ## 导入
 ```dart
