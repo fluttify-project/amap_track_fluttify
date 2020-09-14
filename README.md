@@ -72,10 +72,10 @@ android {
 }
 ```
 3. 由于猎鹰SDK直接包含了定位SDK的代码, 导致不能与定位SDK共存, 解决方案为:
-  1. 使用Android Studio打开android工程;
-  2. 找到amap_location_fluttify模块的`build.gradle`文件;
-  3. 74行, 修改`api 'com.amap.api:location:5.1.0'` 为 `compileOnly 'com.amap.api:location:5.1.0'`; 此处修改意为"只在编译期间可见定位SDK, 不包含在最终的apk中", 所以能解决猎鹰SDK和定位SDK的冲突.
-  4. **此处修改为临时改动, 当定位插件版本升级时, 会覆盖掉此处的修改, 所以当定位插件升级时, 要留意这里, 需要重新改动回`compileOnly`**;
+    1. 使用Android Studio打开android工程;
+    2. 找到amap_location_fluttify模块的`build.gradle`文件;
+    3. 74行, 修改`api 'com.amap.api:location:5.1.0'` 为 `compileOnly 'com.amap.api:location:5.1.0'`; 此处修改意为"只在编译期间可见定位SDK, 不包含在最终的apk中", 所以能解决猎鹰SDK和定位SDK的冲突.
+    4. **此处修改为临时改动, 当定位插件版本升级时, 会覆盖掉此处的修改, 所以当定位插件升级时, 要留意这里, 需要重新改动回`compileOnly`**;
 4. 权限无需另外申明, 定位服务组件无需另外声明, 已在插件中引入;
 5. 无需再处理混淆, 已在插件中配置混淆规则;
 
