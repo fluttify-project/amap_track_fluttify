@@ -4,6 +4,8 @@
 
 [demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-2020-09-14.apk)
 
+**猎鹰组件为付费插件，有意请联系qq 382146139**
+
 # Fluttify系列插件
 |  名称  | 描述 | 仓库 |
 |:-----:|:-----:|:-----:|
@@ -29,7 +31,9 @@
 dependencies:
   flutter:
     sdk: flutter
-  amap_track_fluttify: ^x.x.x
+  amap_track_fluttify: 
+    git:
+      url: git@github.com:yohom/amap_track_fluttify.git
 ```
 
 ## 配置
