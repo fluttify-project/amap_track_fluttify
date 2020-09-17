@@ -2,7 +2,7 @@
 
 # 高德地图 猎鹰组件 Flutter插件
 
-[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-2020-09-14.apk)
+[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-demo.apk)
 
 **猎鹰组件为付费插件，有意请联系qq 382146139**<br/>
 **猎鹰组件为付费插件，有意请联系qq 382146139**<br/>
