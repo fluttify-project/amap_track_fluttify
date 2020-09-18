@@ -2,7 +2,7 @@
 
 # 高德地图 猎鹰组件 Flutter插件
 
-[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-demo.apk)
+[demo apk下载](https://github.com/fluttify-project/fluttify-project/raw/master/resources/amap_track_fluttify/%E7%8C%8E%E9%B9%B0-2020-09-14.apk)
 
 **猎鹰组件为付费插件，有意请联系qq 382146139**<br/>
 **猎鹰组件为付费插件，有意请联系qq 382146139**<br/>
@@ -33,9 +33,7 @@
 dependencies:
   flutter:
     sdk: flutter
-  amap_track_fluttify: 
-    git:
-      url: git@github.com:yohom/amap_track_fluttify.git
+  amap_track_fluttify: ^x.x.x
 ```
 
 ## 配置
@@ -112,6 +110,25 @@ import 'package:amap_track_fluttify/amap_track_fluttify.dart';
 | QQ群 |
 | :----------: |
 | <img src="https://github.com/fluttify-project/fluttify-project/blob/master/resources/1593774713224_temp_qrcode_share_9993.png?raw=true" height="300"> | 
+
+
+## 社区版与专业版
+|  显示地图  | 社区版 | 专业版 |
+|:-----:|:-----:|:-----:|
+|  开启寻迹服务  |  ✅ | ✅ |
+|  开始收集上报轨迹数据  |  ✅ | ✅ |
+|  停止收集上报轨迹数据  |  ✅ |  ✅ |
+|  停止寻迹服务  |  ✅ |  ✅ |
+|  根据终端名称创建终端  |  ✅ |  ✅ |
+|  根据终端名称查询终端信息  |  ✅ |  ✅ |
+|  查询最后一次上报的位置  |  ✅ |  ✅ |
+|  获得当前设置的轨迹id  |  ☑️ |  ✅ |
+|  创建轨迹  |  ☑️ | ✅ |
+|  查询终端行驶里程  |  ☑️ |  ✅ |
+|  查询终端历史轨迹  |  ☑️ | ✅ |
+|  查询终端下属于某个轨迹的轨迹点  |  ☑️ | ✅ |
+|  配置定位采集周期和上报周期  |  ☑️ | ✅ |
+|  配置本地缓存大小  |  ☑️ | ✅ |
 
 ## LICENSE
 > Copyright (C) 2020 yohom
